@@ -1,0 +1,32 @@
+[MASTER]
+disable=
+    C0111,  # missing-docstring
+    C0103,  # invalid-name (allows snake_case naming)
+    W1203,  # logging-fstring-interpolation
+    C0302,  # too-many-lines
+    R0913,  # too-many-arguments
+
+# Ignore directories
+ignore-patterns=
+    ^\.git,
+    venv,
+    env,
+    __pycache__
+
+[MESSAGES CONTROL]
+enable=
+    all
+
+[VARIABLES]
+dummy-variables-rgx=_+$|^dummy
+
+[FORMAT]
+max-line-length=100
+indent-string='    '
+
+[DESIGN]
+max-attributes=7
+max-arguments=7
+max-branches=12
+max-locals=15
+max-statements=50
