@@ -32,10 +32,9 @@ class MeetingPrepAgents:
             goal="Analyze the current industry trends, challenges, and opportunities",
             tools=ExaSearchToolSet.tools(),
             llm=self._get_llm(),
-        backstory=dedent("""\
+            backstory=dedent("""\
                 As an Industry Analyst, your analysis will indentify key trends,
-                challenges facing the industry, and potential opportunities that
-                could be leveraged during the meeting for strategic advantage."""),
+                challenges facing the industry, and potential opportunities that could be leveraged during the meeting for strategic advantage."""),
             verbose=True,
         )
 

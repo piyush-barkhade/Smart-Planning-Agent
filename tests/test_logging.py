@@ -9,7 +9,6 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from src.utils.logging import setup_logging, get_logger
 
-
 class TestLogging:
     """Test logging setup and functionality"""
 

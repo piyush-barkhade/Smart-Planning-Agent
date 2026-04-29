@@ -22,7 +22,7 @@ flake8 src/ api.py --count
 
 # Run type checking
 echo "✓ Type checking with mypy..."
-mypy src/ api.py --ignore-missing-imports --quiet
+mypy src/ api.py --ignore-missing-imports
 
 # Run tests
 echo "✓ Running tests..."
