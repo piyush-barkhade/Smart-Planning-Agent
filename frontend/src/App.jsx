@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>🎯 Smart Planning Agent</h1>
+        <h1>Smart Planning Agent</h1>
         <p>AI-powered planning, research, and briefing in one workflow.</p>
       </header>
 
