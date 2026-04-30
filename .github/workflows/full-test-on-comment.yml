@@ -6,9 +6,9 @@ on:
 
 jobs:
   run-full-tests:
-    if: |
+    if: >-
       github.event.comment.body == 'full test' &&
-      (github.event.issue.pull_request || github.event.issue.html_url contains '/pull/')
+      (github.event.issue.pull_request != null || contains(github.event.issue.html_url, '/pull/'))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
