@@ -2,7 +2,7 @@
 
 ## Week 1 Implementation - Basic DevOps
 
-This guide covers the DevOps infrastructure added to the Smart Marketing Assistant project.
+This guide covers the DevOps infrastructure added to the Smart Planning Agent project.
 
 ### ✅ What's Been Added
 

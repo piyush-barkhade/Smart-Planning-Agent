@@ -2,7 +2,7 @@
 REM DevOps setup and validation script for Windows
 
 echo.
-echo 🚀 Smart Marketing Assistant - DevOps Setup
+echo 🚀 Smart Planning Agent - DevOps Setup
 echo ==========================================
 
 REM Check Python version

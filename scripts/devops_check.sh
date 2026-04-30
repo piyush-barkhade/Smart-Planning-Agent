@@ -1,7 +1,7 @@
 #!/bin/bash
 # DevOps setup and validation script
 
-echo "🚀 Smart Marketing Assistant - DevOps Setup"
+echo "🚀 Smart Planning Agent - DevOps Setup"
 echo "=========================================="
 
 # Check Python version

@@ -1,4 +1,4 @@
-# Smart Marketing Assistant using Crew AI
+# Smart Planning Agent using Crew AI
 
 ## Overview
 
@@ -69,7 +69,7 @@ The Smart Marketing Planning Agent is an AI-powered solution designed to help ma
 
 ## Contributing
 
-We welcome contributions to enhance the functionality of the Smart Marketing Assistant. To contribute:
+We welcome contributions to enhance the functionality of the Smart Planning Agent. To contribute:
 
 1. Fork the repository.
 2. Create a new branch:
@@ -96,4 +96,4 @@ For any inquiries or support, please open an issue in the repository or contact 
 
 ---
 
-Thank you for using the Smart Marketing Assistant! We hope it helps you succeed with your marketing and meeting preparation.
+Thank you for using the Smart Planning Agent! We hope it helps you succeed with your planning and meeting preparation.

@@ -18,9 +18,9 @@ load_dotenv()
 
 # Setup logging
 logger = setup_logging("smart_marketing_api")
-logger.info("Starting Smart Marketing Assistant API")
+logger.info("Starting Smart Planning Agent API")
 
-app = FastAPI(title="Smart Marketing Assistant", version="1.0.0")
+app = FastAPI(title="Smart Planning Agent", version="1.0.0")
 
 # Enable CORS
 app.add_middleware(
