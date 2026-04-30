@@ -6,9 +6,9 @@ on:
 
 jobs:
   run-full-tests:
-    if: |
+    if: >-
       github.event.comment.body == 'full test' &&
-      (github.event.issue.pull_request || github.event.issue.html_url contains '/pull/')
+      (github.event.issue.pull_request != null || contains(github.event.issue.html_url, '/pull/'))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -25,3 +25,12 @@ jobs:
           pip install black pylint flake8 mypy pytest pytest-cov
       - name: Run full test suite
         run: pytest tests/ -v --cov=src --cov-report=xml --cov-report=term
+
+  dummy-check:
+    if: >-
+      github.event.comment.body == 'full test' &&
+      (github.event.issue.pull_request != null || contains(github.event.issue.html_url, '/pull/'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dummy step
+        run: echo "This is a dummy check that runs only on 'full test' comment!"
