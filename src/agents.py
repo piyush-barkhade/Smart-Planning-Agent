@@ -26,7 +26,7 @@ class MeetingPrepAgents:
             verbose=True,
         )
 
-    def context_analysis_agent(self):
+    def industry_analysis_agent(self):
         return Agent(
             role="Context Analyst",
             goal="Analyze the current context, trends, challenges, and opportunities related to the planning objective.",
@@ -39,7 +39,7 @@ class MeetingPrepAgents:
             verbose=True,
         )
 
-    def planning_strategy_agent(self):
+    def meeting_strategy_agent(self):
         return Agent(
             role="Planning Strategy Advisor",
             goal="Develop strategies, action steps, and recommendations to achieve the planning objective.",
