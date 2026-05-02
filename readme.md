@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Smart Marketing Planning Agent is an AI-powered solution designed to help marketers build smarter campaigns and launch marketing strategies with confidence. It combines research, trend analysis, campaign planning, and briefing creation to support every step of marketing preparation.
+The Smart Planning Agent is an AI-powered solution designed to help marketers build smarter campaigns and launch marketing strategies with confidence. It combines research, trend analysis, campaign planning, and briefing creation to support every step of marketing preparation.
 
 ## Workflow
 
